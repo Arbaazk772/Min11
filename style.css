@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+  *{
+      margin: 0;
+      padding: 0;
+  }
+  .head1{
+        background-color:rgb(98, 98, 190) ;
+        width:  100vw;
+        height: 6vh;
+        color: blue;
+        display: flex;
+        align-items: center;
+        font-family: 'Noto Sans KR', sans-serif;
+        /* font-size: 120%; */
+        
+     }
+     #con{
+      background-color: mintcream;
+     }
+     
+     /* .btnParent{
+       
+     
+     } */
+     .ac-register{
+     padding-left: 10px;
+     border-left: 1px solid black;
+     font-family: 'Noto Sans KR', sans-serif;
+     }
+     .ac-login{
+       padding-right: 5px;
+       font-family: 'Noto Sans KR', sans-serif;
+     }
+    
+     .btnParent a{
+      font-family: 'Noto Sans KR', sans-serif;
+      
+      color: white;
+      text-decoration: none;
+      font-size: 100%;
+      align-items: center;
+      position: relative;
+      left: 960px;
+      display: inline-flex;
+      justify-content: right;
+      
+      
+     }
+     a:hover{
+       color: rgb(204, 197, 197);
+      transition: color .5s;
+      
+     }
+    
+
+   .imgF{
+    width: 4vw;
+    height: 5vh;
+    padding-left: 10px;
+     
+   }
+   .GOI{
+     color: white;
+     display: flex;
+     padding-top: 6px;
+     align-self: baseline;
+     padding-left: 10px;
+     font-family: 'Noto Sans KR', sans-serif;
+      font-size: 100%;
+
+   }
+   .alert a:hover{
+     color: black;
+   }
+   
+
+   .foot{
+     /* width: 1 vw; */
+     display: flex;
+     justify-content: center;
+     padding-top: 10px;
+     align-items: center;
+     height: 7vh;
+     background-color: black;
+     color: white;
+     font-family: 'Noto Sans KR', sans-serif;
+     /* position: fixed; */
+     width: 100vw;
+    bottom: 0px;
+   }
+   .help{
+     width: 90vw;
+     margin: 20px 70px;
+     height: 20vh;
+     background-color:lemonchiffon;
+     justify-self: center;
+     display: inline-flex;
+     justify-items: center;
+     font-family: 'Noto Sans KR', sans-serif;
+     
+   }
+  
+   .row{
+    background-color: bisque;
+    margin: 10px 10px;
+    justify-content: center;
+    justify-items: center;
+     align-items: center;
+     align-content: center;
+     justify-self: center;
+     font-family: 'Noto Sans KR', sans-serif;
+    
+   }
+   .minis{
+     width: 2vw;
+     height: 6vh;
+     padding-bottom: 10px;
+     justify-content: center;
+     justify-self: center;
+     align-items: center;
+     align-content: center;
+     font-family: 'Noto Sans KR', sans-serif;
+   }
+   
+   .col{
+
+     /* border: 1px solid gray; */
+     /* border-right: 1px solid gray; */
+     height: 10vh;
+     background-color: bisque;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+     font-family: 'Noto Sans KR', sans-serif;
+     cursor: pointer;
+    
+   }
+   .pow{
+    border-right: 1px solid gray;
+   }
+   .helptitle{
+     display: grid;
+     padding-left: 20px;
+     
+     align-content: center;
+     font-family: 'Noto Sans KR', sans-serif;
+   }
+   .help1{
+    padding-top: 17px;
+     padding-left: 50px;
+     font-family: 'Noto Sans KR', sans-serif;
+   }
+
+   #con{
+     /* background-color: aquamarine; */
+     overflow-x: hidden;
+   }
+   #register{
+     background-color: cornflowerblue;
+     
+    display: flex;
+     
+     justify-content: center;
+     font-family: 'Noto Sans KR', sans-serif;
+   }
+   .insider{
+    display: flex;
+    border: 1px solid black;
+    width: 25vw;
+    height: 50vh;
+     background-color: whitesmoke;
+     margin-top: 100px;
+     justify-content: space-evenly;
+     margin-right: 78px;
+     font-family: 'Noto Sans KR', sans-serif;
+    
+   }
+   .dropdown{
+     display: flex;
+     justify-content: center;
+     margin: 20px 10px;
+     font-family: 'Noto Sans KR', sans-serif;
+   }
+   #emailHelp{
+     color: red;
+     font-family: 'Noto Sans KR', sans-serif;
+   }
+   .form-group{
+     justify-content: center;
+     font-family: 'Noto Sans KR', sans-serif;
+   }
+   #ptime{
+     margin-left: 20px;
+   }
+   /* ----------------------------------------- */
+  .flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+    height: 60vh;
+    margin-bottom: 20px;
+    
+  }
+   .dabba{
+     background-color: rgb(212, 231, 236);
+     border: 2px solid black;
+     width: 40vw;
+     display: flex;
+     display: block;
+     justify-content: center;
+     border-radius: 20px;
+   }
+   .dabbadiv{
+     display: flex;
+     justify-content: center;
+     font-size: larger;
+   }
+   .dabbap{
+     width: 100%;
+     padding-top: 40px;
+     color: darkblue;
+     display: flex;
+     justify-content: center;
+     font-size: xx-large;
+   }
+   .dabbac{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: small;
+   }
+   .flex-innerdabbe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+    height: 10vh;
+   }
+
+   .indab1{
+     border: 2px solid black;
+     height: 20vh;
+     width: 11vw;
+     border-radius: 10px;
+     padding-left: 10px;
+   }
+   .o{
+     /* background-color: lightyellow; */
+   }
+   
+   .indiv1{
+     display: flex;
+     justify-content: center;
+     padding-top: 20px;
+     
+   }
+   #map {
+    height: 380px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+    border-radius: 20px;
+  }
+   .q{
+     color: red;
+   }
+   .p{
+     color: green;
+   }
+   .o{
+     color: rgb(134, 134, 20);
+   }
+   
+   .wpl{
+     border-radius: 20px ;
+    width:39.7vw;
+    height: 59.6vh;
+  }
+
+  @media only screen and (max-width: 300px) {
+    .flex-container{
+      flex-direction: column;
+    }
+    .row{
+      grid-column: auto;
+    }
+    .dabba{
+      flex-direction: column;
+    }
+    .flex-innerdabbe{
+      flex-direction: column;
+    }
+    }
+
+      
+

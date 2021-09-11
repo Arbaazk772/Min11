@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid Tracker</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Mini_Project1/CSS/style.css">
+
+    <link rel="icon"
+        href="https://img.etimg.com/thumb/width-1200,height-900,imgsize-224027,resizemode-1,msid-81666439/industry/healthcare/biotech/healthcare/india-detects-novel-coronavirus-variant.jpg"
+        type="image/icon type">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/Mini_Project1/Javascrpt/javas.js"></script>
+</head>
+
+<body id="con">
+    <header class="head1">
+        <img src="/Mini_Project1/Images/Flag.jpg.jpg" alt="indianFlag" class="imgF">
+        <p class="GOI">Newton Student Of India</p>
+
+        <div class="btnParent">
+            <a href="" class="ac-login" title="Login">Login</a>
+            <a href="/Mini_Project1/Registeration/regis.html" target="_blank" class="ac-register"
+                title="Register">Register</a>
+            <!-- <button class="btn"> Login</button>
+        <button class="btn"> Register</button> -->
+        </div>
+
+
+    </header>
+
+    <main>
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <a class="Covac" href="https://www.cowin.gov.in/" target="_blank"><strong>Click here</strong></a> to
+            register yourself for vaccination
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close" style="outline: none;">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+            crossorigin="anonymous"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                $('.alert').alert()
+            })
+        </script>
+        <hr>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col pow">
+
+                    <strong> Helpline <br>
+                        Number</strong>
+                    <i class="fa fa-phone" style="font-size:25px"></i>
+                </div>
+                <div class="col pow" title="Health Ministry">
+                    <strong>1075</strong><br>
+                    Health Ministry
+                    <img src="/Mini_Project1/Images/ministry-3109513-2590559.png" alt="minis" class="minis">
+                </div>
+                <div class="col pow" title="Child Labour">
+                    <strong>1098</strong><br>
+                    Child Labour
+                    <img src="/Mini_Project1/Images/966957-200.png" alt="minis" class="minis">
+                </div>
+                <div class="col" title="Mental Health">
+                    <strong>08046110007</strong><br>
+                    Mental Health
+                    <img src="/Mini_Project1/Images/mental-health-2184606-1830148.png" alt="minis" class="minis">
+                </div>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="btn btn-primary btn-info dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Select Country
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" value="World" href="#">Select Country</a>
+                <a class="dropdown-item" value="India" href="#">India</a>
+                <a class="dropdown-item" value="USA" href="#">USA</a>
+                <a class="dropdown-item" value="China" href="#">China</a>
+                <a class="dropdown-item" value="Brazil" href="#">Brazil</a>
+            </div>
+        </div>
+
+        <p id="ptime"><b> As on : </b><span id='date-time'></span>.</p>
+        <script>
+            var dt = new Date();
+            document.getElementById('date-time').innerHTML = dt;
+        </script>
+
+        <div class="flex-container">
+            <div class="dabba">
+                <div class="dabbadiv oo"><strong>CASES ACROSS WORLD WIDE </strong></div>
+                <p class="dabbap"><b><u>329,283<span> &#8593;</span></u></b></p>
+                <p class="dabbac"><b>ACTIVE CASES(5.7%)</b></p>
+                <div class="flex-innerdabbe">
+                    <div class="indab1">
+                        <b>TOTAL CASES</b>
+                        <div class="indiv1 o">224,329,283 <span> &#8593;</span></div>
+                    </div>
+                    <div class="indab1">
+                        <b> DISCHARGED</b>
+                        <div class="indiv1 p">72,9283 <span> &#8593;</span></div>
+                    </div>
+                    <div class="indab1">
+                        <b> DEATHS</b>
+                        <div class="indiv1 q">43,29,283 <span> &#8593;</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="dabba">
+                <img src="/Mini_Project1/Images/world-map.gif" alt="wp" class="wpl">
+                <!-- <div id="map"></div> -->
+
+                <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+                <!-- <script
+                    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
+                    async></script>
+            </div> -->
+        </div>
+
+
+    </main>
+    <footer class="foot">
+        <p class="footer">Copyright &copy; 2021-2030 All Right Reserved</p>
+    </footer>
+</body>
+
+</html>
